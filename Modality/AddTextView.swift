@@ -11,7 +11,7 @@ struct AddTextView: View {
     @Environment(\.dismiss) var dismiss
     @Binding var text: String
     var body: some View {
-        VStack{
+        VStack {
             Text("Swipe👇🏻 to dismiss")
                 .font(.system(size: 35))
                 .foregroundStyle(.black)
@@ -27,7 +27,7 @@ struct AddTextView: View {
                 .foregroundColor(.black)
                 .frame(width: 360,height: 100)
                 .font(.system(size: 35))
-            Button("Submit"){
+            Button("Submit") {
                 dismiss()
             }
             .font(.system(size: 35))

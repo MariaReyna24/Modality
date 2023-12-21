@@ -8,30 +8,30 @@
 import SwiftUI
 
 struct Yearbook: View {
-    #warning ("Add some @State variables let the UI keep track of its view")
+    #warning ("TODO: Add a @State variable to keep track of the modal view and if it isPresenting")
     @State var text: String
     var body: some View {
-        ZStack{
+        ZStack {
             Color.green
                 .ignoresSafeArea()
-            VStack{
+            VStack {
                 Text("Kermit the Frog")
                     .font(.system(size: 45))
                     .foregroundStyle(.black)
                 Image(.cowboyKermit)
                 if text == "" {
-                    Text("Add a quote for Kermit")
-                        .foregroundColor(.red)
-                        .font(.system(size: 35))
-                } else{
+                    Text("Add a yearbook quote for Kermit")
+                        .foregroundColor(.black)
+                        .font(.system(size: 32))
+                } else {
                     Text("\(text)")
                         .foregroundColor(.black)
                         .font(.system(size: 35))
                 }
                 Spacer()
                 
-                Button("Add text"){
-                    #warning ("Toggle the @State so you can see the modal view appear")
+                Button("Add text") {
+                    #warning("Toggle the @State variable so you can see the modal view appear")
                   
                 }
                 .font(.system(size: 30))
