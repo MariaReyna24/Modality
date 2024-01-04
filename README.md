@@ -16,3 +16,12 @@ Are you ready to join Kermit on this adventure in app development?
 - As a user Kermit would like to have a sheet view that shows his AddTextView so he can fill out his yearbook quote.
 - As a user Kermit wants to make sure that when he deletes an item from his list there is a alert that will ask him "Are you sure you want to delete this item?"'
 - As a user Kermit wants to be able to add items to his list incase he wants to buy other things.
+
+# Guiding Resources
+https://www.hackingwithswift.com/quick-start/swiftui/how-to-present-a-new-view-using-sheets
+
+https://www.hackingwithswift.com/quick-start/swiftui/how-to-show-an-alert#:~:text=Updated%20in%20iOS%2015&text=To%20show%20an%20alert%2C%20create,empty%20action%20for%20simple%20dismissal
+
+https://www.youtube.com/watch?v=dEmySJwCreo
+
+https://www.youtube.com/watch?v=ddr3E0l4gIQ
