@@ -11,6 +11,9 @@ Are you ready to join Kermit on this adventure in app development?
 <img width="284" alt="Screenshot 2024-01-04 at 4 43 53 PM" src="https://github.com/MariaReyna24/Modality/assets/122468098/a784aa34-a393-42f1-9b86-53471a2cade3">
 <img width="288" alt="Screenshot 2024-01-04 at 4 43 44 PM" src="https://github.com/MariaReyna24/Modality/assets/122468098/ffd3aa01-8589-4604-ae8c-4f74cf314aa4">
 
+# TODO
+Clear up any warnings that are in the Project to add functionality to Kermit's Project
+
 # User Stories: 
 
 - As a user Kermit would like to have a sheet view that shows his AddTextView so he can fill out his yearbook quote.
