@@ -25,6 +25,6 @@ Clear up any warnings that are in the Project to add functionality to Kermit's P
 
 [How to show an alert](https://www.hackingwithswift.com/quick-start/swiftui/how-to-show-an-alert#:~:text=Updated%20in%20iOS%2015&text=To%20show%20an%20alert%2C%20create,empty%20action%20for%20simple%20dismissal)
 
-[How to show an alert(Video SwiftFul Thinking](https://www.youtube.com/watch?v=dEmySJwCreo)
+[How to show an alert (Video SwiftFul Thinking)](https://www.youtube.com/watch?v=dEmySJwCreo)
 
-[How to display Sheets and FullScreenCovers in SwiftUI](https://www.youtube.com/watch?v=ddr3E0l4gIQ)
+[How to display Sheets and FullScreenCovers in SwiftUI (Video SwiftFul Thinking)](https://www.youtube.com/watch?v=ddr3E0l4gIQ)
