@@ -17,7 +17,7 @@ Clear up any warnings that are in the Project to add functionality to Kermit's P
 # User Stories: 
 
 - As a user Kermit would like to have a sheet view that shows his AddTextView so he can fill out his yearbook quote.
-- As a user Kermit wants to make sure that when he deletes an item from his list there is a alert that will ask him "Are you sure you want to delete this item?"'
+- As a user Kermit wants to make sure that when he deletes an item from his list there is a alert that will ask him "Are you sure you want to delete this item?"
 - As a user Kermit wants to be able to add items to his list incase he wants to buy other things.
 
 # Guiding Resources
