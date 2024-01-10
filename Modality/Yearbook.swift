@@ -12,7 +12,7 @@ struct Yearbook: View {
     @State var text: String
     var body: some View {
         ZStack {
-            Color.green
+            Color(.kermitGreen)
                 .ignoresSafeArea()
             VStack {
                 Text("Kermit the Frog")
@@ -29,13 +29,16 @@ struct Yearbook: View {
                         .font(.system(size: 35))
                 }
                 Spacer()
-                
+                //make her more button like
                 Button("Add text") {
                     #warning("Toggle the @State variable so you can see the modal view appear")
-                  
                 }
                 .font(.system(size: 30))
-                .foregroundStyle(.black)
+                .foregroundStyle(.white)
+                .padding()
+                .background(.black)
+                .cornerRadius(50)
+             
             }
             #warning ("Make a sheet appear with the AddTextView so you can fill out Kermits year book quote")
            

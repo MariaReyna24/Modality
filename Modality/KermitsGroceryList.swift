@@ -15,7 +15,7 @@ struct KermitsGroceryList: View {
     @State var listItems = ["Flies", "Swamp Grass", "Tadpole Noodles","Crickets"]
     var body: some View {
         NavigationStack {
-            ZStack{
+            ZStack {
                 Color(.kermitGreen)
                     .ignoresSafeArea()
                 List {
