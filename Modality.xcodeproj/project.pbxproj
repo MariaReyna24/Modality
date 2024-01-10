@@ -16,6 +16,7 @@
 		A21F1E4B2A938CC200DE1B15 /* ModalityUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21F1E4A2A938CC200DE1B15 /* ModalityUITestsLaunchTests.swift */; };
 		A21F1E582A938F1F00DE1B15 /* KermitsGroceryList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21F1E572A938F1F00DE1B15 /* KermitsGroceryList.swift */; };
 		A24815CC2B33323D0006D021 /* AddTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24815CB2B33323D0006D021 /* AddTextView.swift */; };
+		A2CCC0482B4EEE1B0000D01F /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = A2CCC0472B4EEE1B0000D01F /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		A21F1E4A2A938CC200DE1B15 /* ModalityUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalityUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		A21F1E572A938F1F00DE1B15 /* KermitsGroceryList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KermitsGroceryList.swift; sourceTree = "<group>"; };
 		A24815CB2B33323D0006D021 /* AddTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTextView.swift; sourceTree = "<group>"; };
+		A2CCC0472B4EEE1B0000D01F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		A21F1E202A938CC100DE1B15 = {
 			isa = PBXGroup;
 			children = (
+				A2CCC0472B4EEE1B0000D01F /* README.md */,
 				A21F1E2B2A938CC200DE1B15 /* Modality */,
 				A21F1E3D2A938CC200DE1B15 /* ModalityTests */,
 				A21F1E472A938CC200DE1B15 /* ModalityUITests */,
@@ -239,6 +242,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2CCC0482B4EEE1B0000D01F /* README.md in Resources */,
 				A21F1E352A938CC200DE1B15 /* Preview Assets.xcassets in Resources */,
 				A21F1E312A938CC200DE1B15 /* Assets.xcassets in Resources */,
 			);
