@@ -21,7 +21,7 @@ Clear up any warnings that are in the Project to add functionality to Kermit's P
 - As a user Kermit wants to be able to add items to his list incase he wants to buy other things.
 
 # Guiding Resources
-https://www.hackingwithswift.com/quick-start/swiftui/how-to-present-a-new-view-using-sheets
+[How to present a sheet view](https://www.hackingwithswift.com/quick-start/swiftui/how-to-present-a-new-view-using-sheets)
 
 https://www.hackingwithswift.com/quick-start/swiftui/how-to-show-an-alert#:~:text=Updated%20in%20iOS%2015&text=To%20show%20an%20alert%2C%20create,empty%20action%20for%20simple%20dismissal
 
