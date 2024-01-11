@@ -6,7 +6,7 @@ That's where you come in! Kermit needs your help to complete his project. Kermit
 Are you ready to join Kermit on this adventure in app development?
 
 # HIFI 
-![Simulator Screenshot - iPhone 15 Pro - 2023-12-20 at 11 25 02](https://github.com/MariaReyna24/Modality/assets/122468098/9c10c485-edb5-48bb-a293-ff447872802b)
+
 
 
 # TODO
