@@ -6,7 +6,7 @@ That's where you come in! Kermit needs your help to complete his project. Kermit
 Are you ready to join Kermit on this adventure in app development?
 
 # HIFI 
-![Kermit](https://github.com/MariaReyna24/Modality/assets/122468098/360f3416-2e5a-4ce5-bf67-16fff9b25b95)
+(https://github.com/MariaReyna24/Modality/assets/122468098/360f3416-2e5a-4ce5-bf67-16fff9b25b95)
 # TODO
 Clear up any warnings that are in the Project to add functionality to Kermit's Project
 
