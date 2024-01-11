@@ -6,7 +6,7 @@ That's where you come in! Kermit needs your help to complete his project. Kermit
 Are you ready to join Kermit on this adventure in app development?
 
 # HIFI 
-![Kermit](/Modality/Kermit.png)
+![Kermit](/Kermit.png)
 # TODO
 Clear up any warnings that are in the Project to add functionality to Kermit's Project
 
