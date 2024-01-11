@@ -6,6 +6,10 @@ That's where you come in! Kermit needs your help to complete his project. Kermit
 Are you ready to join Kermit on this adventure in app development?
 
 # HIFI 
+<img width="288" alt="Screenshot 2024-01-04 at 4 47 27 PM" src="https://github.com/MariaReyna24/Modality/assets/122468098/5efe4b6b-b152-4089-9ffe-553f73e31618">
+<img width="295" alt="Screenshot 2024-01-04 at 4 47 11 PM" src="https://github.com/MariaReyna24/Modality/assets/122468098/714077e1-9d9b-41b5-a450-d47b84f6bc8a">
+<img width="284" alt="Screenshot 2024-01-04 at 4 43 53 PM" src="https://github.com/MariaReyna24/Modality/assets/122468098/a784aa34-a393-42f1-9b86-53471a2cade3">
+<img width="288" alt="Screenshot 2024-01-04 at 4 43 44 PM" src="https://github.com/MariaReyna24/Modality/assets/122468098/ffd3aa01-8589-4604-ae8c-4f74cf314aa4">
 
 
 
