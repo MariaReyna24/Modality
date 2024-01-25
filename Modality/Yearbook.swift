@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct Yearbook: View {
-    #warning ("TODO: Add a @State variable to keep track of the modal view and if it isPresenting")
+    @State var isPresenting = false
     @State var text: String
     var body: some View {
         ZStack {
@@ -29,22 +29,22 @@ struct Yearbook: View {
                         .font(.system(size: 35))
                 }
                 Spacer()
-                //make her more button like
                 Button("Add text") {
-                    #warning("Toggle the @State variable so you can see the modal view appear")
+                    isPresenting.toggle()
                 }
                 .font(.system(size: 30))
                 .foregroundStyle(.white)
                 .padding()
                 .background(.black)
                 .cornerRadius(50)
-             
+                
             }
-            #warning ("Make a sheet appear with the AddTextView so you can fill out Kermits year book quote")
-           
+            .sheet(isPresented: $isPresenting){
+                AddTextView(text: $text)
             }
         }
     }
+}
 
 
 #Preview {

@@ -11,46 +11,70 @@ struct KermitsGroceryList: View {
     init(){
         UINavigationBar.appearance().largeTitleTextAttributes = [.foregroundColor: UIColor.white]
     }
-    #warning("TODO: Add @State variables to keep track of what alerts you are showing")
+    @State var alertPresenting = false
+    @State var addingAlertPresenting = false
+    @State var confirmDelete: Bool = false
     @State var listItems = ["Flies", "Swamp Grass", "Tadpole Noodles","Crickets"]
+    @State var deletedIndex: IndexSet?
+    @State var newItem: String = ""
     var body: some View {
         NavigationStack {
-            ZStack {
-                Color(.kermitGreen)
+            ZStack{
+                Color.green
                     .ignoresSafeArea()
                 List {
                     ForEach(listItems, id: \.self) { (item) in
                         Text(item)
                             .font(.system(size: 35))
-                    } .onDelete { _ in
-                        #warning("TODO: Toggle your @State varible to show your alert")
+                    } .onDelete { indexSet in
+                        deletedIndex = indexSet
+                        //toggle alert to show
+                        alertPresenting.toggle()
                     }
-                    #warning("TODO: Create the alert that will confirm if you want to delete it")
-                        
+                    //add an alert that shows when you try to delete
+                    .alert("Are you sure you want to delete this?", isPresented: $alertPresenting) {
+                        Button("Delete", role: .destructive) {
+                            // Get this button to delete the item you are trying to delete
+                            listItems.remove(atOffsets: deletedIndex ?? IndexSet(integer: 1))
+                        }
+                        //this button just cancels the item
+                        Button("Cancel", role: .cancel) {}
                     }.font(.system(size: 50))
                 }
+                .background(Image(.excitedKermit)
+                    .resizable()
+                    .scaledToFit()
+                )
                 .scrollContentBackground(.hidden)
                 .navigationTitle(Text("Kermits Grocery List"))
                 .toolbar{
-                    ToolbarItemGroup(placement: .navigationBarTrailing){
-                #warning("TODO: Use this button to create an alert that shows when you want to add something to Kermits list")
+                    ToolbarItemGroup(placement: .navigationBarTrailing) {
+                        // make it alert
                         Button {
-                        }
-                    label: {
+                            addingAlertPresenting = true
+                        } label: {
                             Label("Add more items", systemImage: "plus")
-                                .foregroundStyle(.black, .black)
-                                .font(.system(size: 100))
+                                .font(.system(size: 25))
+                                .foregroundStyle(.black)
                         }
                         
-                        
+                        // add an alert that shows when you want to add something
+                        .alert("What do you want to add", isPresented: $addingAlertPresenting) {
+                            TextField("Item you want to add", text: $newItem)
+                            Button("Add Item") {
+                                listItems.append(newItem)
+                                if newItem != "" {
+                                    newItem = ""
+                                }
+                            }
+                        }
                     }
                     
                 }
             }
         }
     }
-
-
+}
 #Preview {
     KermitsGroceryList()
 }
