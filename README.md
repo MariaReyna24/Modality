@@ -24,3 +24,5 @@ Clear up any warnings that are in the Project to add functionality to Kermit's P
 [How to show an alert (Video SwiftFul Thinking)](https://www.youtube.com/watch?v=dEmySJwCreo)
 
 [How to display Sheets and FullScreenCovers in SwiftUI (Video SwiftFul Thinking)](https://www.youtube.com/watch?v=ddr3E0l4gIQ)
+
+[How to add a textfield to a alert](https://www.hackingwithswift.com/quick-start/swiftui/how-to-add-a-textfield-to-an-alert)
